@@ -1,5 +1,7 @@
 package command_pattern;
 
+
+// Concrete Command
 public class OnCommand implements Command {
 
     private Light _obj;

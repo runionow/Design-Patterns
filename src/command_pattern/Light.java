@@ -9,6 +9,17 @@ public class Light {
         this._state = 0;
     }
 
+    public void toggle(){
+        if(this._state == 0) {
+            this.on();
+            System.out.println("Light is switched On");
+        }
+        else{
+            this.off();
+            System.out.println("Light is switched off");
+        }
+    }
+
     public void on(){
         if(this._state == 0){
             this._state = 1;

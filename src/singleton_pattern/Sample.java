@@ -1,4 +1,4 @@
-package singleton;
+package singleton_pattern;
 
 public class Sample {
     private static volatile Sample instance = null;
@@ -21,5 +21,4 @@ public class Sample {
             }
             return instance;
     }
-
 }
