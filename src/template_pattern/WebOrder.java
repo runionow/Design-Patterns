@@ -14,6 +14,5 @@ public class WebOrder extends OrderTemplate {
     @Override
     public void doReciept() {
         System.out.println("Generate Reciept");
-
     }
 }
