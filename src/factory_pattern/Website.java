@@ -8,6 +8,14 @@ import java.util.List;
 public abstract class Website {
     protected List<Page> pages = new ArrayList<>();
 
+    public final boolean security(){
+        return true;
+    }
+
+    public final boolean copyright(){
+        return true;
+    }
+
     public Website(){
         this.createWebsite();
     }
