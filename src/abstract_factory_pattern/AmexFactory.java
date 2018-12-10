@@ -1,5 +1,5 @@
 package abstract_factory_pattern;
-
+// Hello
 public class AmexFactory extends CreditCardFactory {
     @Override
     public CreditCard gertCreditCard(CardType card) {
