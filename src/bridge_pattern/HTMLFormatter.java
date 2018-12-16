@@ -14,7 +14,7 @@ public class HTMLFormatter implements Formatter {
         builder.append(header);
         builder.append("</th>");
 
-        for (Detail detail : details) {
+        for (Detail detail : details){
             builder.append("<tr><td>");
             builder.append(detail.getLabel());
             builder.append("</td><td>");
