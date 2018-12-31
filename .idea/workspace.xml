@@ -4,14 +4,13 @@
     <bookmark url="file://$PROJECT_DIR$/src/builder_pattern/BuilderMain.java" line="0" mnemonic="1" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b273d7b5-ec4e-4e8e-a1e8-39a0ea28566d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/org_apache_derby_derby_10_14_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/facade_pattern/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/facade_pattern/DbSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/facade_pattern/FacadeMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/facade_pattern/JDBCFacade.java" afterDir="false" />
+    <list default="true" id="b273d7b5-ec4e-4e8e-a1e8-39a0ea28566d" name="Default" comment="Facade Pattern">
+      <change afterPath="$PROJECT_DIR$/src/fly_weight_pattern/Catalog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fly_weight_pattern/FlyWeightMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fly_weight_pattern/InventorySystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fly_weight_pattern/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fly_weight_pattern/Order.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intro_To_Design.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Intro_To_Design.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,11 +39,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="FacadeMain.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/facade_pattern/FacadeMain.java">
+      <file leaf-file-name="FlyWeightMain.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/fly_weight_pattern/FlyWeightMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+            <state relative-caret-position="391">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
@@ -67,12 +66,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/adapter_pattern/EmployeeDB.java" />
-        <option value="$PROJECT_DIR$/src/adapter_pattern/EMployeeAdapterLDAP.java" />
-        <option value="$PROJECT_DIR$/src/adapter_pattern/EmployeeClient.java" />
-        <option value="$PROJECT_DIR$/src/adapter_pattern/AdpaterMain.java" />
-        <option value="$PROJECT_DIR$/src/adapter_pattern/EmployeeLdap.java" />
-        <option value="$PROJECT_DIR$/src/adapter_pattern/EmployeeAdapterLDAP.java" />
         <option value="$PROJECT_DIR$/src/adapter_pattern/EmployeeAdapterCSV.java" />
         <option value="$PROJECT_DIR$/src/bridge_pattern/BridgeEveryDay.java" />
         <option value="$PROJECT_DIR$/src/bridge_pattern/BlueCircle.java" />
@@ -118,6 +111,12 @@
         <option value="$PROJECT_DIR$/src/facade_pattern/Address.java" />
         <option value="$PROJECT_DIR$/src/facade_pattern/JDBCFacade.java" />
         <option value="$PROJECT_DIR$/src/facade_pattern/FacadeMain.java" />
+        <option value="$PROJECT_DIR$/src/fly_weight_pattern.java" />
+        <option value="$PROJECT_DIR$/src/fly_weight_pattern/Item.java" />
+        <option value="$PROJECT_DIR$/src/fly_weight_pattern/Catalog.java" />
+        <option value="$PROJECT_DIR$/src/fly_weight_pattern/Order.java" />
+        <option value="$PROJECT_DIR$/src/fly_weight_pattern/InventorySystem.java" />
+        <option value="$PROJECT_DIR$/src/fly_weight_pattern/FlyWeightMain.java" />
       </list>
     </option>
   </component>
@@ -136,11 +135,10 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="953" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -167,7 +165,7 @@
               <item name="Intro_To_Design" type="b2602c69:ProjectViewProjectNode" />
               <item name="Intro_To_Design" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="facade_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="fly_weight_pattern" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Intro_To_Design" type="b2602c69:ProjectViewProjectNode" />
@@ -197,11 +195,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="fly_weight_pattern" />
       <recent name="facade_pattern" />
       <recent name="composite_pattern" />
       <recent name="bridge_pattern" />
       <recent name="abstract_factory_pattern" />
-      <recent name="visitor_pattern" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -332,12 +330,20 @@
       <workItem from="1545091814640" duration="27000" />
       <workItem from="1545091919493" duration="90000" />
       <workItem from="1545092283452" duration="10000" />
-      <workItem from="1546062029390" duration="4882000" />
+      <workItem from="1546062029390" duration="10744000" />
     </task>
+    <task id="LOCAL-00001" summary="Facade Pattern">
+      <created>1546132776578</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1546132776578</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="124144000" />
+    <option name="totallyTimeSpent" value="130006000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -349,11 +355,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32985386" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.3278867" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -361,11 +368,11 @@
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.32995737" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.38235295" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32897604" />
+      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.33223322" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32985386" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49782136" visible="true" weight="0.18070363" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49782136" visible="true" weight="0.37089714" />
       <window_info anchor="right" id="Database" order="3" weight="0.32995737" />
       <window_info id="Structure" order="1" sideWeight="0.50217867" side_tool="true" weight="0.18070363" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -375,7 +382,6 @@
       <window_info id="Favorites" order="2" sideWeight="0.5020877" side_tool="true" weight="0.17430703" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32881" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -417,6 +423,12 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="Facade Pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Facade Pattern" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -466,49 +478,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/bridge_pattern/shape2/Shape.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bridge_pattern/shape2/Green.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bridge_pattern/shape2/Circle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bridge_pattern/shape2/Color.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bridge_pattern/shape2/Blue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bridge_pattern/shape2/BridgeDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bridge_pattern/shape1/Shape.java" />
     <entry file="file://$PROJECT_DIR$/src/bridge_pattern/shape1/Color.java" />
     <entry file="file://$PROJECT_DIR$/src/bridge_pattern/shape1/RedSquare.java" />
     <entry file="file://$PROJECT_DIR$/src/bridge_pattern/shape1/BlueCircle.java" />
@@ -858,18 +827,87 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/facade_pattern/JDBCFacade.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="10" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="10" />
+        <state relative-caret-position="391">
+          <caret line="23" column="21" lean-forward="true" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/fly_weight_pattern.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/facade_pattern/FacadeMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+        <state relative-caret-position="306">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Intro_To_Design.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fly_weight_pattern/Item.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+          <folding>
+            <element signature="e#110#111#0" expanded="true" />
+            <element signature="e#142#143#0" expanded="true" />
+            <element signature="e#188#189#0" expanded="true" />
+            <element signature="e#227#228#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fly_weight_pattern/Catalog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#384#385#0" expanded="true" />
+            <element signature="e#405#406#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fly_weight_pattern/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#348#349#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fly_weight_pattern/InventorySystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#619#620#0" expanded="true" />
+            <element signature="e#671#672#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fly_weight_pattern/FlyWeightMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
